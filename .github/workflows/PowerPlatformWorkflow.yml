@@ -25,9 +25,9 @@ on:
        default: solutions/
 env:
 #edit your values here
-  ENVIRONMENT_URL: '<ENVIRONMENTURL>'
-  CLIENT_ID: '<APPID>'
-  TENANT_ID: '<TENANT ID>'
+  ENVIRONMENT_URL: 'https://org498fa385.crm8.dynamics.com'
+  CLIENT_ID: '002b7c45-65ed-41e5-b808-e3cb6970a8dd'
+  TENANT_ID: '6e118510-6811-4974-8a35-804a62290def'
 
 jobs:
   export-from-dev:
