@@ -1,6 +1,6 @@
-name: export-and-branch-solution
-# Export solution from DEV environment
-#  unpack it and prepare, commit and push a git branch with the changes #1#
+name: Release Solution to Prod
+# Export solution from PROD environment
+#  upload the solution to the GitHub artifacts and deploy to the PROD environment
 
 on:
   workflow_dispatch:
